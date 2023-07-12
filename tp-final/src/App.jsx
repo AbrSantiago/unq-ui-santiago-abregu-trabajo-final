@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./page/home";
-import PVP from "./components/pve";
-import PVE from "./components/pvp";
+import PVE from "./components/pve";
+import PVP from "./components/pvp";
 
 const App = () => {
   return (
