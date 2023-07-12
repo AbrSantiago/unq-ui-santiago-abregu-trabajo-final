@@ -46,9 +46,6 @@ const ComplexGrid = ({
               <Typography variant="body2" gutterBottom>
                 {description}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                ¡Juega ya!
-              </Typography>
             </Grid>
             <Grid item>
               <ButtonOutlined onClick={onClickButton} title={titleButton} />
