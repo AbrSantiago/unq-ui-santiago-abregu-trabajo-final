@@ -34,7 +34,7 @@ const Home = () => {
           justifyContent="center"
           alignItems="flex-start"
         >
-          <Typography>Piedra papel tijera spock</Typography>
+          <Typography>Piedra Papel Tijera Lagarto Spock</Typography>
         </Grid>
         <Grid
           container
@@ -48,19 +48,19 @@ const Home = () => {
               image={pvpImage}
               abreviattionTitle={"PVP"}
               title={"Player vs Player"}
-              description={"Juega contra otra persona"}
+              description={"Play against other players"}
               onClickButton={goToPVP}
-              titleButton={"Jugar"}
+              titleButton={"PLAY"}
             />
           </Grid>
           <Grid item xs={16} md={8} lg={4}>
             <ComplexGrid
               image={pveImage}
               abreviattionTitle={"PVE"}
-              title={"Player vs Machine"}
-              description={"Juega contra la maquina"}
+              title={"Player vs IA"}
+              description={"Play against the IA"}
               onClickButton={goToPVE}
-              titleButton={"Jugar"}
+              titleButton={"PLAY"}
             />
           </Grid>
         </Grid>{" "}
