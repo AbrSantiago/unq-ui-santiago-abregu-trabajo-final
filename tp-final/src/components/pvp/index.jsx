@@ -102,7 +102,12 @@ const PVE = () => {
         <ButtonOutlined
           title="Go back"
           onClick={goBack}
-          style={{ color: "black", border: "1px solid black" }}
+          style={{
+            color: "black",
+            color: "black",
+            border: "2px solid black",
+            backgroundColor: "white",
+          }}
         />
         <Grid
           container
@@ -141,7 +146,7 @@ const PVE = () => {
             </MediaCard>
           </Grid>
           <Grid item xs={16} md={8} lg={4}>
-          <MediaCard
+            <MediaCard
               description={`Score:${scorePlayer2}`}
               title={"Player 2"}
               image={player2Choose}
@@ -177,7 +182,8 @@ const PVE = () => {
               style={{
                 marginTop: "2%",
                 color: "black",
-                border: "1px solid black",
+                border: "2px solid black",
+                backgroundColor: "white",
               }}
             />
           </Grid>

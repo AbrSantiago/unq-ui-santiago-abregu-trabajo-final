@@ -96,7 +96,12 @@ const PVE = () => {
         <ButtonOutlined
           title="Go back"
           onClick={goBack}
-          style={{ color: "black", border: "1px solid black" }}
+          style={{
+            color: "black",
+            color: "black",
+            border: "2px solid black",
+            backgroundColor: "white",
+          }}
         />
         <Grid
           container
@@ -148,7 +153,8 @@ const PVE = () => {
               style={{
                 marginTop: "2%",
                 color: "black",
-                border: "1px solid black",
+                border: "2px solid black",
+                backgroundColor: "white",
               }}
             />
           </Grid>
