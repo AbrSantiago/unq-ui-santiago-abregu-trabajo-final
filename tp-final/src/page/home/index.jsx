@@ -34,7 +34,9 @@ const Home = () => {
           justifyContent="center"
           alignItems="flex-start"
         >
-          <Typography>Piedra Papel Tijera Lagarto Spock</Typography>
+          <Typography sx={{ color: "white", fontSize: "50px", fontWeight: "bold" }}>
+            Piedra Papel Tijera Lagarto Spock
+          </Typography>
         </Grid>
         <Grid
           container
