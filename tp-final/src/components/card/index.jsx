@@ -16,7 +16,7 @@ const MediaCard = ({ title, description, children, image }) => {
     <Card
       sx={{
         maxWidth: 345,
-        backgroundColor: "white",
+        backgroundColor: "#ffd68d",
         borderRadius: "5px",
         border: "2px solid black",
       }}

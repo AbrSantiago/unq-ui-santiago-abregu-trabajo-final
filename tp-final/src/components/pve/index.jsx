@@ -100,7 +100,7 @@ const PVE = () => {
             color: "black",
             color: "black",
             border: "2px solid black",
-            backgroundColor: "white",
+            backgroundColor: "#ffd68d",
           }}
         />
         <Grid
@@ -154,7 +154,7 @@ const PVE = () => {
                 marginTop: "2%",
                 color: "black",
                 border: "2px solid black",
-                backgroundColor: "white",
+                backgroundColor: "#ffd68d",
               }}
             />
           </Grid>
