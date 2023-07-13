@@ -28,6 +28,7 @@ const ComplexGrid = ({
         margin: "auto",
         maxWidth: 500,
         flexGrow: 1,
+        color: "white",
         backgroundColor: "#1A2027",
       }}
     >
@@ -48,7 +49,11 @@ const ComplexGrid = ({
               </Typography>
             </Grid>
             <Grid item>
-              <ButtonOutlined onClick={onClickButton} title={titleButton} />
+              <ButtonOutlined
+                sx={{ color: "white" }}
+                onClick={onClickButton}
+                title={titleButton}
+              />
             </Grid>
           </Grid>
           <Grid item>
