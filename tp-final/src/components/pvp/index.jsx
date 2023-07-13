@@ -150,7 +150,7 @@ const PVE = () => {
               <TextField
                 id="filled-select-currency"
                 select
-                value={playerChoose}
+                value={player2Choose}
                 defaultValue="signo"
                 helperText={
                   player2Choose === "signo"
