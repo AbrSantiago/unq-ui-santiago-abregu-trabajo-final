@@ -142,7 +142,16 @@ const Results = ({ player1, player2, newGame, updateScore }) => {
         </div>
         <div className="row div-winner">{showWinner(winnerPlayer())}</div>
         <div className="row div-button">
-          <ButtonOutlined onClick={newGame} title="Play again" />
+          <ButtonOutlined
+            style={{ 
+              color: "black",
+              border: "2px solid black",
+              backgroundColor: "#ffd68d",
+              marginBottom: "10px",
+            }}
+            onClick={newGame}
+            title="Play again"
+          />
         </div>
       </div>
     </div>

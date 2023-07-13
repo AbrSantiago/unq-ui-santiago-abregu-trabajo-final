@@ -104,7 +104,6 @@ const PVE = () => {
           onClick={goBack}
           style={{
             color: "black",
-            color: "black",
             border: "2px solid black",
             backgroundColor: "#ffd68d",
           }}
